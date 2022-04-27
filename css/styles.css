@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-white: #FFFFFF;
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-grey: #CCCCCC;
+    --color-black: #000000;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 18px;
+    color: var(--color-white);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.instagram-header img {
+    width: 30px;
+}
+
+.instagram-header a {
+    font-size: 14px;
+    color: var(--color-white);
+    padding-left: 10px;
+}
