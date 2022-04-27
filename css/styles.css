@@ -83,3 +83,35 @@ nav h1 {
     color: var(--color-black);
     font-size: 14px;
 }
+
+#modalities {
+    background-color: var(--color-white);
+    height: 880px;
+}
+
+#modalities h2 {
+    color: var(--color-red);
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.modalities-card {
+    background-color: var(--color-blue);
+    height: 106px;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.modalities-card h3 {
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+.modalities-card p {
+    color: var(--color-grey);
+    font-size: 14px;
+}
